@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    background-color: #282828;
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+.menuItem{
+    font-family: 'Joti One', cursive;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FCEEDB;
+    font-size: 40px;
+    padding: 30px;
+} 
+.menuItem:hover {
+    background: rgb(252,238,219);
+    background: radial-gradient(circle, rgba(252,238,219,1) 0%, rgba(206,57,61,1) 100%);
+}
+.photo{
+    box-shadow: 1px 1px 5px 5px #FCEEDB;
+    margin: 40px;
+    margin-left: 70px;
+    margin-top: 50px;
+    height: 400px;
+}
+.container{
+    display: flex;
+}
+
+.heading{
+    font-family: 'Poppins', sans-serif;
+    color: #FCEEDB;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.text {
+    font-family: 'Poppins', sans-serif;
+    color: #FCEEDB;
+    font-size: 30px;
+}
+.btn {
+    background-color: #FCEEDB;
+    color: #CE393D;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 20px;
+}
+.btn:hover{
+    color: #FCEEDB;
+    border: #CE393D;
+}
+.welcomeHeading{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.welcome{
+    font-family: 'Great Vibes', cursive;
+    color: #FCEEDB;
+    font-size: 120px;
+    z-index: 100;
+}
+.welcomeTwo{
+    font-family: 'Poppins', sans-serif;
+    color: #CE393D;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -100px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.gallery{
+    width: 600px;
+
+    margin-left: 140px;
+    box-shadow: 1px 1px 5px 5px #FCEEDB;
+}
+.containerTwo{
+    display: flex;
+    flex-direction: column;
+}
+.two{
+    margin-left: 140px;
+    margin-top: 30px;
+    max-width: 80%;
+}
+.menuSushi{
+    padding: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #CE393D;
+}
+.one{
+    margin-right: auto;
+}
+.footerImg{
+    padding: 10px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-family: 'Poppins', sans-serif;
+    color: #FCEEDB;
+    font-size: 40px;
+    padding: 30px;
+    width: 200px;
+}
+input{
+    padding: 20px;
+    margin: 20px;
+    min-width: 300px;
+}
+.photoTwo{
+    box-shadow: 1px 1px 5px 5px #CE393D;
+    margin: 40px;
+}
+
+@media all and (max-width: 800px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menuItem{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .photo{
+        margin: 0;
+        width: 300px;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .gallery{
+        margin: 0;
+        max-width: 80%;
+    }
+    .text{
+        font-size: 20px;
+        max-width: 80%;
+    }
+    .containerTwo{
+        align-items: center;
+    }
+    .two{
+        margin: 0;
+    }
+    .menuSushi{
+        padding: 10px;
+        max-width: 80%;
+    }
+    .form {
+        flex-direction: column;
+        align-items: center;
+    }
+    label{
+        font-size: 20px;
+    }
+    input {
+        min-width: 200px;
+    }
+}
+@media all and (max-width: 400px){
+    .welcome {
+        font-size: 100px;
+    }
+    .welcomeTwo{
+        margin-top: -80px;
+        font-size: 30px;
+        margin-left: 95px;
+    }
+    input{
+        padding: 10px;
+        margin: 20px;
+        min-width: 150px;
+    }
+    .photoTwo{
+        max-width: 70%;
+        margin: 20px;
+    }
+    form{
+        margin: 0;
+    }
+}

@@ -1,0 +1,5 @@
+gsap.from(".photo", {delay: 1.2, duration:2, x: -400, opacity:0, ease: "power2.inOut"})
+gsap.from(".btn", {opacity:0, delay:3, duration:1, rotation: 720})
+gsap.from(".menuSushi", {duration:2, delay:4, y:100, opacity:0})
+gsap.from(".gallery", {delay:1, duration:2, x:900, opacity:0})
+gsap.from(".menu", {duration:3, delay:0.5, y:-100, opacity:0})
